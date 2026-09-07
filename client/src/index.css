@@ -21,3 +21,11 @@ body, #root {
   min-height: 100vh;
   background-color: #050608;
 }
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

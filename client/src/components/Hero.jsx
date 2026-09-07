@@ -17,8 +17,8 @@ export default function Hero() {
     <section id="hero" className="relative min-h-screen bg-black text-white flex items-center justify-center overflow-hidden font-sans border-b border-white/20">
       
       {/* Floating Curved Transparent Header */}
-      <header className="fixed top-6 left-1/2 -translate-x-1/2 z-50 bg-black/40 backdrop-blur-md border border-white/20 rounded-full px-8 py-3.5 flex items-center justify-center shadow-2xl">
-        <nav className="flex items-center space-x-6 sm:space-x-8 text-xs font-mono uppercase tracking-widest text-gray-300">
+      <header className="fixed top-4 left-3 right-28 sm:top-6 sm:left-1/2 sm:right-auto sm:-translate-x-1/2 z-50 bg-black/40 backdrop-blur-md border border-white/20 rounded-full px-3 sm:px-8 py-3 sm:py-3.5 flex items-center justify-center shadow-2xl">
+        <nav className="flex items-center space-x-3 sm:space-x-8 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-gray-300 overflow-x-auto no-scrollbar whitespace-nowrap">
           <a href="#about" className="hover:text-red-500 transition-colors">About</a>
           <a href="#experience" className="hover:text-red-500 transition-colors">Experience</a>
           <a href="#skills" className="hover:text-red-500 transition-colors">Skills</a>
@@ -30,13 +30,13 @@ export default function Hero() {
       {/* Standalone Separate "Get In Touch" Button */}
       <a 
         href="#contact" 
-        className="fixed top-6 right-6 sm:right-10 z-50 bg-[#800020] hover:bg-red-600 text-white px-5 py-2.5 font-sans text-xs font-extrabold uppercase tracking-widest rounded-full transition-all duration-300 border border-white/30 shadow-2xl hover:scale-105"
+        className="fixed top-4 right-3 sm:top-6 sm:right-10 z-50 bg-[#800020] hover:bg-red-600 text-white px-3 sm:px-5 py-2.5 font-sans text-[10px] sm:text-xs font-extrabold uppercase tracking-widest rounded-full transition-all duration-300 border border-white/30 shadow-2xl hover:scale-105"
       >
         Get In Touch
       </a>
 
       {/* Left-Side Pure Social Logos */}
-      <div className="absolute left-6 sm:left-8 top-1/2 -translate-y-1/2 z-30 flex flex-col items-center space-y-6">
+      <div className="absolute left-3 sm:left-8 top-1/2 -translate-y-1/2 z-30 flex flex-col items-center space-y-6">
         {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/rana-fahar-inam-156034363/"
@@ -89,7 +89,7 @@ export default function Hero() {
       </div>
 
       {/* Hero Foreground Content */}
-      <div className="relative z-20 max-w-6xl w-full mx-auto px-12 sm:px-16 lg:px-20 pt-28 pb-16 text-left space-y-6">
+      <div className="relative z-20 max-w-6xl w-full mx-auto px-4 sm:px-16 lg:px-20 pt-28 pb-16 text-left space-y-6">
         
         {/* Name Title */}
         <motion.h1
