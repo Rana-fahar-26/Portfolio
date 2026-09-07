@@ -27,14 +27,6 @@ export default function Hero() {
         </nav>
       </header>
 
-      {/* Standalone Separate "Get In Touch" Button */}
-      <a 
-        href="#contact" 
-        className="fixed top-4 right-3 sm:top-6 sm:right-10 z-50 bg-[#800020] hover:bg-red-600 text-white px-3 sm:px-5 py-2.5 font-sans text-[10px] sm:text-xs font-extrabold uppercase tracking-widest rounded-full transition-all duration-300 border border-white/30 shadow-2xl hover:scale-105"
-      >
-        Get In Touch
-      </a>
-
       {/* Left-Side Pure Social Logos */}
       <div className="absolute left-3 sm:left-8 top-1/2 -translate-y-1/2 z-30 flex flex-col items-center space-y-6">
         {/* LinkedIn */}
